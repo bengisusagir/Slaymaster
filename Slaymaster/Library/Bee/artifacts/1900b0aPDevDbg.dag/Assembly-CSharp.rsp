@@ -114,7 +114,12 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
+-define:UNITY_POST_PROCESSING_STACK_V2
+-define:ODIN_INSPECTOR
+-define:ODIN_INSPECTOR_3
 -define:PHOTON_UNITY_NETWORKING
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
@@ -331,6 +336,10 @@
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aPDevDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Infima Games/Tools/Log.cs"
+"Assets/Infima Games/Tools/Looping/Loops.cs"
+"Assets/Infima Games/Tools/Looping/LoopUtilities.cs"
+"Assets/Infima Games/Tools/Looping/RLoops.cs"
 "Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs"
 "Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs"
 "Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs"
@@ -362,6 +371,7 @@
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/Sway.cs"
 "Assets/Scripts/Weapon.cs"
 -langversion:9.0
 

@@ -420,6 +420,7 @@
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/Sway.cs"
 "Assets/Scripts/Weapon.cs"
 -langversion:9.0
 

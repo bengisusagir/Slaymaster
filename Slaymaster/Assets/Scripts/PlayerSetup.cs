@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class PlayerSetup : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PlayerSetup : MonoBehaviour
     {
         instance = this;
     }
+    [PunRPC]
     public void IsLocalPlayer()
     {
         movement.enabled = true;
