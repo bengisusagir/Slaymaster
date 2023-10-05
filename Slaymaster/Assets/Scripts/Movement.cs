@@ -16,50 +16,129 @@ public class Movement : MonoBehaviourPunCallbacks
     [Space]
     public float airControl = 0.5f;
 
+    public PhotonView PV;
+    public float stepDelay = 0.5f; 
+    private float lastStepTime;
+    public float jumpDelay = 0.5f; 
+    private float lastJumpTime;
+
     [Space]
     public float jumpHeight = 5f;
 
     private Vector2 input;
     private Rigidbody rb;
     public Player photonPlayer;
+    public bool jumped;
 
     private bool sprinting;
     private bool jumping;
 
+    public Animator animator;
+    public AudioSource walk;
+    public AudioSource jump;
+    public AudioClip jumpclip;
+
     private bool grounded=false;
+    private void Awake()
+    {
+        PV = GetComponent<PhotonView>();
+        animator = GetComponent<Animator>();
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
     void Update()
     {
+        if (!PV.IsMine)
+            return;
+
         input = new Vector2(-Input.GetAxisRaw("Horizontal"), -Input.GetAxisRaw("Vertical"));
         input.Normalize();
+        if (input.magnitude > 0 && input.magnitude <= 4f )
+        {
+            animator.SetBool("isWalking", true);
+            if (Time.time - lastStepTime > stepDelay )
+            {
+                walk.Play();
+                lastStepTime = Time.time;
+                PV.RPC("PlaySoundsForAll", RpcTarget.All);
+
+            }
+
+
+        }
+        else if (input.magnitude > 4f)
+        {
+            animator.SetBool("isRunning", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
+
+        }
+
 
         sprinting = Input.GetButton("Sprint");
-        jumping = Input.GetButton("Jump");
+        jumping = Input.GetButtonDown("Jump");
     }
+       [PunRPC]
+        public void PlaySoundsForAll()
+        {
 
+            walk.Play();
+
+        }
+    [PunRPC]
+    public void PlayJumpForAll()
+    {
+       jump.PlayOneShot(jumpclip);
+
+
+    }
     private void OnTriggerStay(Collider other)
     {
         grounded = true;
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "ground")
+            jumped = true;
+    }
     void FixedUpdate()
     {
+        if (!PV.IsMine)
+            return;
         if (grounded)
         {
+                
             if (jumping)
             {
                 rb.velocity = new Vector3(rb.velocity.x, jumpHeight, rb.velocity.z);
+ 
+     
             }
+               else if(jumped)
+                {
+                    jump.PlayOneShot(jumpclip);
+                    PV.RPC("PlayJumpForAll", RpcTarget.All);
+                jumped = false;
 
+            }
             else if (input.magnitude > 0.5f)
             {
-            rb.AddForce(CalculateMovement(sprinting ? sprintSpeed :walkSpeed), ForceMode.VelocityChange);   
+
+            rb.AddForce(CalculateMovement(sprinting ? sprintSpeed :walkSpeed), ForceMode.VelocityChange);
+                if (sprinting)
+                    stepDelay = 0.2f;
+                else
+                    stepDelay = 0.3f;
              }
             else
               {
-                 var velocity1 = rb.velocity;
+
+                var velocity1 = rb.velocity;
                 velocity1 = new Vector3(velocity1.x * 0.2f * Time.fixedDeltaTime, velocity1.y, velocity1.z * 0.2f * Time.fixedDeltaTime);
                 rb.velocity = velocity1;
                 }
@@ -68,10 +147,12 @@ public class Movement : MonoBehaviourPunCallbacks
         {
             if (input.magnitude > 0.5f)
             {
+
                 rb.AddForce(CalculateMovement(sprinting ? sprintSpeed*airControl : walkSpeed*airControl), ForceMode.VelocityChange);
             }
             else
             {
+
                 var velocity1 = rb.velocity;
                 velocity1 = new Vector3(velocity1.x * 0.2f * Time.fixedDeltaTime, velocity1.y, velocity1.z * 0.2f * Time.fixedDeltaTime);
                 rb.velocity = velocity1;

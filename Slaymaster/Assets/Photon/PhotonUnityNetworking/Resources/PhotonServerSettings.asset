@@ -45,6 +45,15 @@ MonoBehaviour:
   - ImInGame
   - TakeDamage
   - IsLocalPlayer
+  - SetNickname
+  - RotateCamera
+  - SetHealthBar
+  - UpdateHealth
+  - SelectWeapon
+  - SetTPWeapon
+  - PlaySoundsForAll
+  - PlayJumpForAll
+  - PlayDieForAll
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

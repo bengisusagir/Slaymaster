@@ -1,246 +1,449 @@
 ﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1696106936014215, "dur": 244048, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936016265, "dur": 24810, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936041306, "dur": 206930, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936248278, "dur": 9984, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936607029, "dur": 2482664, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936607054, "dur": 67536, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106936674593, "dur": 2405503, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106939080099, "dur": 9594, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952407663, "dur": 255866, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952408311, "dur": 24499, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952432814, "dur": 221739, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952654555, "dur": 8972, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952664405, "dur": 62, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377524992838, "dur": 2355121, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377524994971, "dur": 25633, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377525021094, "dur": 2316772, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377527337913, "dur": 10046, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377527766610, "dur": 5366508, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377527766637, "dur": 67818, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377527834459, "dur": 5288538, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377533122999, "dur": 10117, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538074833, "dur": 311304, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538075331, "dur": 8800, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538084134, "dur": 292638, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538376774, "dur": 9361, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538387162, "dur": 47, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1696106952481259, "dur":23595, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952504893, "dur":631, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952505730, "dur":71, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1696106952505802, "dur":732, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952506602, "dur":1425, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952508030, "dur":104406, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952612446, "dur":239, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952612712, "dur":115, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952612828, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952613245, "dur":6187, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1696106952507287, "dur":907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1696106952508194, "dur":8310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516599, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516535, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516731, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516805, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516802, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516993, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1696106952516989, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1696106952517372, "dur":15744, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952517369, "dur":15751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952533121, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1696106952533189, "dur":16886, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952533186, "dur":16891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952550119, "dur":11971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952550117, "dur":11975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Networking.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952562094, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1696106952562158, "dur":12684, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952562156, "dur":12688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1696106952574952, "dur":11392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1696106952586393, "dur":26060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952506991, "dur":1095, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952508088, "dur":8594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952516751, "dur":498, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1696106952516684, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1696106952517255, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952517344, "dur":12971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952517342, "dur":12976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRRuntime.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952530319, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952530393, "dur":15814, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952530389, "dur":15821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Registration.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952546211, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952546272, "dur":15894, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952546269, "dur":15898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Internal.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1696106952562548, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952562546, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952563814, "dur":372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952563812, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952564230, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952564227, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952564689, "dur":495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952564687, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952565237, "dur":543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952565234, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952565820, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952565818, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952566073, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1696106952566158, "dur":825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952566156, "dur":829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567021, "dur":355, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567019, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567413, "dur":342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567411, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567795, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952567793, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952568392, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952568390, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952569520, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1696106952570644, "dur":13905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1696106952584669, "dur":3529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1696106952588251, "dur":24494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952506973, "dur":1084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952508069, "dur":8428, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952516648, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952517038, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952517353, "dur":14559, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952517351, "dur":14563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Threading.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952531915, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952532114, "dur":13234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952532112, "dur":13239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952545352, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952545415, "dur":13682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952545412, "dur":13688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952559101, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1696106952559162, "dur":12674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952559159, "dur":12680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1696106952571988, "dur":17589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1696106952589624, "dur":23040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952507152, "dur":990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952508144, "dur":8379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952516537, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1696106952516656, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1696106952516765, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1696106952517001, "dur":376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952516954, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/WinPixEventRuntime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952517420, "dur":17096, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952517417, "dur":17103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952534521, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952534588, "dur":17951, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952534586, "dur":17956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952552544, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952552645, "dur":13171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952552642, "dur":13177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/KinoBloom.Runtime.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1696106952565855, "dur":674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952565853, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952566566, "dur":341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952566564, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952566953, "dur":873, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952566952, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952567876, "dur":356, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952567873, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952568262, "dur":449, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952568260, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1696106952569727, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1696106952569841, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1696106952569840, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1696106952570204, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1696106952572539, "dur":12001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1696106952584668, "dur":6361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1696106952591079, "dur":21353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952507114, "dur":999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952508114, "dur":8400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952516601, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1696106952516535, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1696106952516758, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":5, "ts":1696106952516755, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1696106952516915, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952517310, "dur":16009, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952517307, "dur":16013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952533357, "dur":16541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952533355, "dur":16546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952549902, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952549961, "dur":14526, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952549958, "dur":14531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRDemo.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1696106952564490, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1696106952564746, "dur":491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952564744, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565288, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565286, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565626, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565623, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565950, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952565948, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952566247, "dur":485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952566245, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952566768, "dur":258, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952566766, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952567062, "dur":793, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952567060, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952567893, "dur":347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952567891, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/KinoBloom.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952568277, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952568275, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952568614, "dur":331, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952568612, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952569124, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952569122, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1696106952571776, "dur":40551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1696106952507254, "dur":916, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952508171, "dur":8338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952516531, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1696106952516632, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1696106952516614, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1696106952516740, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1696106952517033, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952517294, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.0.2\\Runtime\\AOT\\Newtonsoft.Json.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952517288, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Newtonsoft.Json.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952517416, "dur":18466, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952517412, "dur":18473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952535887, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952535954, "dur":18761, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952535951, "dur":18767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952554719, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952554784, "dur":11631, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952554782, "dur":11635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1696106952566452, "dur":1310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952566449, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952567795, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952567794, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRDemo.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952568194, "dur":1059, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952568191, "dur":1064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1696106952569625, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1696106952571250, "dur":3988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1696106952575314, "dur":9214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1696106952584600, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1696106952584668, "dur":5522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1696106952590244, "dur":22406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952507370, "dur":845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952508216, "dur":8471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952516769, "dur":688, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1696106952516740, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1696106952517491, "dur":14373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952517489, "dur":14378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952531869, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952531930, "dur":14539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952531927, "dur":14545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952546523, "dur":14249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952546520, "dur":14256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952560777, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952560843, "dur":13587, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952560840, "dur":13594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonChat.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1696106952574436, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952574497, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1696106952574564, "dur":10785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level1.resS" }}
-,{ "pid":12345, "tid":7, "ts":1696106952585431, "dur":615, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1696106952585426, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1696106952586052, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1696106952586129, "dur":26717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952507495, "dur":740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952508235, "dur":8516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952516800, "dur":492, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952517347, "dur":14600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952517295, "dur":14654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Device.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952531991, "dur":12674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952531988, "dur":12681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Cinemachine.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952544670, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952544732, "dur":14842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952544730, "dur":14847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952559578, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952559636, "dur":11873, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952559632, "dur":11880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1696106952571514, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1696106952571579, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1696106952571577, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1696106952571942, "dur":36851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1696106952608855, "dur":3586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1696106952624271, "dur":2543, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1696106952664599, "dur": 1168, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1696106952664381, "dur": 1432, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1696377538143695, "dur":4827, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538148556, "dur":1125, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538149841, "dur":61, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1696377538149903, "dur":713, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538150717, "dur":1389, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538152109, "dur":207053, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538359164, "dur":165, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538359329, "dur":115, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538359445, "dur":213, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538359998, "dur":5142, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1696377538151029, "dur":1102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538152142, "dur":8723, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538160918, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538161037, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538161552, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1696377538161549, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1696377538161741, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538162550, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696377538163071, "dur":1794, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538164872, "dur":56516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538164869, "dur":56522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538221393, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538221753, "dur":22124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538221750, "dur":22130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538243880, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538243945, "dur":32285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538243943, "dur":32293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRDemo.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1696377538276237, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538276507, "dur":2153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538276504, "dur":2161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538278666, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538278873, "dur":11314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538278871, "dur":11319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290191, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290258, "dur":501, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290256, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290763, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290851, "dur":2044, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538290848, "dur":2049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538292898, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538292994, "dur":659, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538292991, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538293657, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538293778, "dur":444, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538293775, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294227, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294316, "dur":547, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294314, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294866, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294932, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538294930, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538295325, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538295398, "dur":620, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538295396, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296021, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296339, "dur":347, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296337, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296689, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296759, "dur":736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538296757, "dur":754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538299826, "dur":10556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696377538310445, "dur":2015, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696377538312555, "dur":4634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1696377538318115, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1696377538318206, "dur":9853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1696377538328165, "dur":10458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1696377538338653, "dur":20500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538151133, "dur":1027, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538152161, "dur":8885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538161047, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1696377538161494, "dur":701, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538162198, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1696377538162279, "dur":1380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538172157, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1696377538163662, "dur":9044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster.exe" }}
+,{ "pid":12345, "tid":2, "ts":1696377538172707, "dur":1532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538174256, "dur":55690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538174247, "dur":55703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538229952, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538230072, "dur":25348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538230069, "dur":25354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538255424, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538255528, "dur":64198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538255526, "dur":64203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/KinoBloom.Runtime.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1696377538319731, "dur":978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696377538320715, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696377538321678, "dur":37387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1696377538151221, "dur":966, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538152188, "dur":8826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538161054, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696377538161015, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696377538161143, "dur":745, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538161892, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1696377538161988, "dur":1032, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163023, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163251, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163316, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163314, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163396, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163454, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163451, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1696377538163597, "dur":751, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538164356, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.0.2\\Runtime\\AOT\\Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538164353, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Newtonsoft.Json.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538164413, "dur":7284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538171704, "dur":41198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538171700, "dur":41205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538212906, "dur":4310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538217226, "dur":26755, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538217223, "dur":26761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Cinemachine.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538243985, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538244051, "dur":22543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538244049, "dur":22547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Networking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538266597, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538266862, "dur":35190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538266860, "dur":35195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1696377538302060, "dur":2190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538304294, "dur":1577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538305925, "dur":1070, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538307035, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538307359, "dur":579, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538307944, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538307942, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538308043, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538308209, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538308572, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538308743, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538309105, "dur":393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538309503, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538309500, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538309563, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538309965, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538310327, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538310325, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696377538310389, "dur":1345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538311739, "dur":350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1696377538311737, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1696377538312092, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696377538312232, "dur":9163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1696377538321488, "dur":16722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1696377538338244, "dur":20955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538151290, "dur":921, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538152212, "dur":8764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538161145, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1696377538160987, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1696377538161257, "dur":1611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538162875, "dur":995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696377538162872, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696377538163874, "dur":21421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538185304, "dur":40878, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538185300, "dur":40885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538226186, "dur":378, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538226585, "dur":17077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538226568, "dur":17097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538243666, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538243771, "dur":28560, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538243769, "dur":28565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1696377538272336, "dur":572, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538272916, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538272913, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273141, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273204, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273202, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273443, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273517, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273514, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273713, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538273830, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274259, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274257, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274438, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274597, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274931, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274929, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538274990, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275104, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275392, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275443, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275515, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275513, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275588, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275680, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538275893, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538276041, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538276337, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538276787, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538276786, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538276843, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277235, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277403, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277541, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277539, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277606, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277667, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277665, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277722, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538277864, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278190, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278273, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278663, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.0.2\\Runtime\\AOT\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278660, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278728, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278788, "dur":617, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538278786, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538279409, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538279805, "dur":1417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538279802, "dur":1423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538281226, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538281332, "dur":714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538281329, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538282052, "dur":2760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538284821, "dur":2202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538284817, "dur":2210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287028, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287155, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287152, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287545, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287640, "dur":465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538287637, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288108, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288199, "dur":384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288197, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288587, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288714, "dur":512, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538288712, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289229, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289500, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289497, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289891, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289978, "dur":872, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538289976, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538290902, "dur":738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538290901, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538291643, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538291743, "dur":362, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538291741, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538292109, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538292201, "dur":947, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538292198, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538293151, "dur":540, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538293698, "dur":891, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538293696, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538294602, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538294671, "dur":285, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538294669, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538294968, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538295025, "dur":323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538295023, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538295398, "dur":2001, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538295395, "dur":2007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538297403, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538297539, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538297640, "dur":1146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538298841, "dur":3211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538302100, "dur":1979, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538304132, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538304425, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538304663, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538304946, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538305270, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538305471, "dur":1403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538306918, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538307257, "dur":721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308021, "dur":350, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308424, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308480, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308477, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308541, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538308827, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538309174, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538309574, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538309571, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696377538309660, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538310155, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538310297, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538310546, "dur":2073, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696377538312621, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1696377538312709, "dur":10108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1696377538322898, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1696377538328567, "dur":9941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1696377538338537, "dur":20621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538151398, "dur":835, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538152234, "dur":8723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538160959, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1696377538161233, "dur":1244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538162972, "dur":1259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1696377538162482, "dur":1751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1696377538164234, "dur":1292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538165535, "dur":37026, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538165531, "dur":37033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/CFXRRuntime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538202565, "dur":745, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538203320, "dur":15441, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538203316, "dur":15448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538218766, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538219129, "dur":39572, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538219126, "dur":39578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538258705, "dur":742, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538259478, "dur":36711, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538259475, "dur":36716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1696377538296192, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538296257, "dur":8530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538296254, "dur":8535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538304789, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538304998, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538304995, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538305069, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538305373, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538305576, "dur":1403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538307013, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538307302, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538307839, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538308193, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538308795, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538309089, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538309504, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538309502, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696377538309719, "dur":724, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538310479, "dur":2038, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696377538312563, "dur":31294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1696377538343897, "dur":15299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538151491, "dur":761, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538152253, "dur":8741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538160996, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1696377538161187, "dur":877, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538162067, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1696377538162152, "dur":912, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163106, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163066, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163201, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163407, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163404, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163498, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163898, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538163896, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538164173, "dur":3285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538167468, "dur":70959, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538167464, "dur":70967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Threading.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538238432, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538238531, "dur":28190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538238529, "dur":28194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538266723, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538267433, "dur":36338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538267429, "dur":36344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538303793, "dur":9111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1696377538312940, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1696377538312938, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1696377538313352, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538313667, "dur":4441, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1696377538313665, "dur":4446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1696377538318113, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696377538318274, "dur":33902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1696377538352215, "dur":6988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538151576, "dur":695, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538152271, "dur":8601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538160976, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1696377538160907, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1696377538161288, "dur":647, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538161942, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1696377538161937, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1696377538162001, "dur":876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538162880, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1696377538163168, "dur":1329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538164503, "dur":21485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538164500, "dur":21492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Device.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538185994, "dur":1129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538187135, "dur":47614, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538187131, "dur":47621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Registration.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538234753, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538234858, "dur":27604, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538234855, "dur":27610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538262466, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538262567, "dur":40878, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538262565, "dur":40883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1696377538303450, "dur":906, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538304468, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538304901, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538305374, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538305372, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538305541, "dur":1089, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538306638, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538306635, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538306713, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538306801, "dur":1204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538308056, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538308235, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538308500, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538308745, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538308953, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538309039, "dur":393, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538309477, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538309924, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538309922, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538310000, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538310185, "dur":1277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538311471, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538311467, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696377538311534, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696377538311820, "dur":7999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1696377538319853, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696377538320162, "dur":8143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696377538328386, "dur":17374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696377538345795, "dur":13371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538151684, "dur":603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538152288, "dur":9069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538161359, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1696377538161587, "dur":1348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538162937, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1696377538163072, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538163296, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\u\\Unity 2022.1.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_development_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696377538163262, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696377538163375, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538163695, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1696377538164238, "dur":7347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538171593, "dur":48275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538171590, "dur":48282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538219873, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538220374, "dur":18722, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538220370, "dur":18728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538239099, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538239460, "dur":26357, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538239458, "dur":26363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Internal.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538265822, "dur":512, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538266344, "dur":67070, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\OneDrive\\Masast\\gitfiles\\Slaymaster\\Slaymaster\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538266341, "dur":67077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1696377538333420, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696377538333639, "dur":2429, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1696377538333636, "dur":2434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/OneDrive/Masast/Slaymaster_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1696377538336090, "dur":9153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/OneDrive/Masast/Slaymaster_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1696377538345278, "dur":13893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696377538371865, "dur":3473, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1696377538387350, "dur": 40056, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1696377538387140, "dur": 40321, "ph": "X", "name": "Write chrome-trace events", "args": {} },

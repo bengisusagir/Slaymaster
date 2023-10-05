@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
 
 public class MouseLook : MonoBehaviour
 {
@@ -23,11 +24,19 @@ public class MouseLook : MonoBehaviour
 
     private Vector2 mouseDelta;
 
+    public PhotonView PV;
+
+
     [HideInInspector]
     public bool scoped;
-
+    private void Awake()
+    {
+        PV = characterBody.GetComponent<PhotonView>();
+    }
     void Start()
     {
+        if (!PV.IsMine)
+            return;
         instance = this;
 
         // Set target direction to the camera's initial orientation.
@@ -51,12 +60,15 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
+        if (!PV.IsMine)
+            return;
+
         // Allow the script to clamp based on a desired target value.
         var targetOrientation = Quaternion.Euler(targetDirection);
         var targetCharacterOrientation = Quaternion.Euler(targetCharacterDirection);
 
         // Get raw mouse input for a cleaner reading on more sensitive mice.
-        mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
+        mouseDelta = new Vector2(Input.GetAxisRaw("Mouse X"), -Input.GetAxisRaw("Mouse Y"));
 
         // Scale input against the sensitivity setting and multiply that against the smoothing value.
         mouseDelta = Vector2.Scale(mouseDelta, new Vector2(sensitivity.x * smoothing.x, sensitivity.y * smoothing.y));
@@ -78,7 +90,7 @@ public class MouseLook : MonoBehaviour
 
         transform.localRotation = Quaternion.AngleAxis(-_mouseAbsolute.y, targetOrientation * Vector3.right) * targetOrientation;
 
-        // If there's a character body that acts as a parent to the camera
+     
         if (characterBody)
         {
             var yRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);

@@ -369,10 +369,14 @@
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NetworkManager.cs"
+"Assets/Scripts/newMouse.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/slider.cs"
 "Assets/Scripts/Sway.cs"
+"Assets/Scripts/ToCamera.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/Scripts/WeaponSwitcher.cs"
 -langversion:9.0
 
 /deterministic

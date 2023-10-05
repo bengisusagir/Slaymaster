@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Movement[] players;
     private int playersInGame;
 
+
+
     public static GameManager instance;
     private void Awake()
     {
@@ -39,6 +41,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
         PlayerSetup.instance.IsLocalPlayer();
+        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
+
     }
     public Movement GetPlayer(int playerId)
     {

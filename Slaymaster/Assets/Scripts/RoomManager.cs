@@ -24,12 +24,16 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TextMeshProUGUI playerListText;
     public Button startGameButton;
 
+
+
+    public string nickname = "unnamed";
     void Start()
     {
         createRoomButton.interactable = false;
         joinRoomButton.interactable = false;
         Debug.Log("Baglaniyo");
     }
+
     public override void OnConnectedToMaster()
     {
         createRoomButton.interactable = true;
@@ -77,6 +81,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     }
     public void OnStartButton()
     {
+        
         SetScreen(secSc);
 
     }
@@ -96,7 +101,6 @@ public class RoomManager : MonoBehaviourPunCallbacks
     }
     void Update()
     {
-        
-        
+
     }
 }
