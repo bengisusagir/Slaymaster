@@ -421,6 +421,7 @@
 "Assets/Scripts/newMouse.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/RoomManager.cs"
+"Assets/Scripts/ScoreBoard.cs"
 "Assets/Scripts/slider.cs"
 "Assets/Scripts/Sway.cs"
 "Assets/Scripts/ToCamera.cs"
