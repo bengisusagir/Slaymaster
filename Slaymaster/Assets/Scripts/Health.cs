@@ -8,14 +8,19 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public int maxHealth = 100;
-    private int health;
+    public int health;
     public PhotonView pv;
     public Slider _slider;
+    public Slider hbg;
+    public bool isLocalPlayer;
+
+
+
 
     [Header("UI")]
     public TextMeshProUGUI healthText;
     public AudioSource died;
-
+    private GameManager respawn;
 
     public static Health instance; 
     private void Awake()
@@ -28,20 +33,27 @@ public class Health : MonoBehaviour
     public void TakeDamage(int _damage)
     {
         health -= _damage;
-
         healthText.text = health.ToString();
+        hbg.value = health;
         if (health <= 0)
         {
             died.Play();
             pv.RPC("PlayDieForAll", RpcTarget.All);
+            //if (isLocalPlayer)
+            //{
+               // GameManager.instance.RespawnPlayer();
+
+            //}
             Destroy(gameObject);
+
 
         }
         pv.RPC("UpdateHealth", RpcTarget.AllBuffered, health);
     }
-    private void Start()
+    private void Start()     
     {
         health = maxHealth;
+
     }
     [PunRPC]
     public void PlayDieForAll()
@@ -57,4 +69,10 @@ public class Health : MonoBehaviour
         health = newHealth;
         _slider.value = newHealth;
     }
+
+    private void Update()
+    {
+        //healthBar.sizeDelta = new Vector2(originalHealthBarSize * health / 100f, healthBar.sizeDelta.y);
+    }
+
 }

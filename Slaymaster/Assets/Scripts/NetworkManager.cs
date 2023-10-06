@@ -10,7 +10,11 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     private void Awake()
     {
         if (instance != null && instance != this)
+        {
             gameObject.SetActive(false);
+
+        }
+            
 
         else
         {
@@ -20,7 +24,17 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
     void Start()
     {
-        PhotonNetwork.ConnectUsingSettings();
+        if (!PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.ConnectUsingSettings();
+
+        }
+        else
+        {
+            PhotonNetwork.Disconnect();
+
+        }
+
     }
 
 

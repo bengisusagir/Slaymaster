@@ -17,7 +17,8 @@ public class PlayerSetup : MonoBehaviour
     public Slider slid;
     public Transform TPHolder;
     public Transform parentTransform;
-    public Transform childTransform; 
+    public Transform childTransform;
+    private PhotonView pv;
 
 
     public static PlayerSetup instance;
@@ -35,12 +36,15 @@ public class PlayerSetup : MonoBehaviour
 
     }
 
-    [PunRPC]
+
+        [PunRPC]
     public void SetNickname(string _name)
     {
         nickname = _name; 
         nameUI.text = _name;
     }
+
+
 
     [PunRPC]
     public void SetTPWeapon(int _weaponIndex)
@@ -62,6 +66,8 @@ public class PlayerSetup : MonoBehaviour
         can = health;
         slid.value = health;
     }
+
+   
     private void Update()
     {
         childTransform.parent = parentTransform;

@@ -1,4 +1,6 @@
 ﻿using Photon.Pun;
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
@@ -25,7 +27,7 @@ public class MouseLook : MonoBehaviour
     private Vector2 mouseDelta;
 
     public PhotonView PV;
-
+    public bool isESC = false;
 
     [HideInInspector]
     public bool scoped;
@@ -45,23 +47,28 @@ public class MouseLook : MonoBehaviour
         // Set target direction for the character body to its inital state.
         if (characterBody)
             targetCharacterDirection = characterBody.transform.localRotation.eulerAngles;
-        
-        if (lockCursor)
-            LockCursor();
 
-    }
-
-    public void LockCursor()
-    {
-        // make the cursor hidden and locked
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
     }
 
     void Update()
     {
         if (!PV.IsMine)
             return;
+
+           if (isESC)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isESC = !isESC;
+        }
 
         // Allow the script to clamp based on a desired target value.
         var targetOrientation = Quaternion.Euler(targetDirection);

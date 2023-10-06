@@ -10,10 +10,12 @@ using System.Linq;
 public class GameManager : MonoBehaviourPunCallbacks
 {
     [Header("Player")]
-    public string playerPrefabLocation;
+    public string[] playerPrefabLocation;
     public Transform[] spawnPoints;
     public Movement[] players;
     private int playersInGame;
+
+
 
 
 
@@ -39,11 +41,21 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     void SpawnPlayer()
     {
-        GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+        GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
         PlayerSetup.instance.IsLocalPlayer();
         playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
+        playerObj.GetComponent<Health>().isLocalPlayer = true;
 
     }
+    public void RespawnPlayer()
+    {
+        GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+        PlayerSetup.instance.IsLocalPlayer();
+        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
+        playerObj.GetComponent<Health>().isLocalPlayer = true;
+
+    }
+
     public Movement GetPlayer(int playerId)
     {
         return players.First(x => x.id == playerId);
@@ -51,5 +63,10 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Movement GetPlayer(GameObject playerObj)
     {
         return players.First(x => x.gameObject == playerObj);
+    }
+    public void OnGoBackButton()
+    {
+        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Menu");
+        Destroy(NetworkManager.instance.gameObject);
     }
 }

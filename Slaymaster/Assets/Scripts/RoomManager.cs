@@ -27,6 +27,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
 
 
     public string nickname = "unnamed";
+
     void Start()
     {
         createRoomButton.interactable = false;
@@ -101,6 +102,10 @@ public class RoomManager : MonoBehaviourPunCallbacks
     }
     void Update()
     {
+        if (!PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.Reconnect();
+        }
 
     }
 }
