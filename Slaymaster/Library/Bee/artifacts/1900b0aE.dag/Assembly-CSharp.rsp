@@ -424,6 +424,7 @@
 "Assets/Scripts/ScoreBoard.cs"
 "Assets/Scripts/slider.cs"
 "Assets/Scripts/Sway.cs"
+"Assets/Scripts/Timer.cs"
 "Assets/Scripts/ToCamera.cs"
 "Assets/Scripts/Weapon.cs"
 "Assets/Scripts/WeaponSwitcher.cs"

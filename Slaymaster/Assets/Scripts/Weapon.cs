@@ -86,7 +86,6 @@ public class Weapon : MonoBehaviourPun
     }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.tag);
         if (other.gameObject.tag == "ammo")
         {
             pv.RPC("TakeAmmo", RpcTarget.AllBuffered,other.gameObject.name);
@@ -123,7 +122,7 @@ public class Weapon : MonoBehaviourPun
             ammo--;
             magText.text = mag.ToString();
             ammoText.text = ammo + "/" + magAmmo;
-                SetAmmo();
+            SetAmmo();
             Fire();
             au.Play();
             pv.RPC("PlaySoundsForAll", RpcTarget.All);

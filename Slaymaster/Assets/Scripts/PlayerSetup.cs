@@ -11,7 +11,7 @@ public class PlayerSetup : MonoBehaviour
 
     public GameObject camera;
 
-    public string nickname;
+    public string nickname="unnamed";
     public int can=100;
     public int kill=0;
     public TextMeshPro nameUI;
@@ -68,12 +68,6 @@ public class PlayerSetup : MonoBehaviour
         slid.value = health;
     }
 
-/*    [PunRPC]
-    public void SetKill(int health)
-    {
-        can = health;
-        slid.value = health;
-    }*/
 
 
     private void Update()

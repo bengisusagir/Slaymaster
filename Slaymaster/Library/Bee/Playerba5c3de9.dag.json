@@ -202,9 +202,7 @@
         194,
         195,
         196,
-        197,
-        198,
-        199
+        197
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -1464,17 +1462,6 @@
       "DebugActionIndex": 114
     },
     {
-      "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Postprocessing.Runtime.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/OneDrive/Masaüstü/gitfiles/Slaymaster/Slaymaster/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll"
-      ],
-      "Outputs": [
-        "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Postprocessing.Runtime.dll"
-      ],
-      "DebugActionIndex": 115
-    },
-    {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Newtonsoft.Json.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
@@ -1483,7 +1470,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/websocket-sharp.dll",
@@ -1494,7 +1481,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Photon3Unity3D.dll",
@@ -1505,7 +1492,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Photon3Unity3D.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1516,7 +1503,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/netstandard.dll",
@@ -1527,7 +1514,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Mono.Security.dll",
@@ -1538,7 +1525,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1549,7 +1536,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Configuration.dll",
@@ -1560,7 +1547,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Core.dll",
@@ -1571,7 +1558,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1582,7 +1569,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Data.dll",
@@ -1593,7 +1580,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Drawing.dll",
@@ -1604,7 +1591,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.EnterpriseServices.dll",
@@ -1615,7 +1602,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1626,7 +1613,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.IO.Compression.dll",
@@ -1637,7 +1624,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Net.Http.dll",
@@ -1648,7 +1635,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Numerics.dll",
@@ -1659,7 +1646,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Runtime.Serialization.dll",
@@ -1670,7 +1657,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Security.dll",
@@ -1681,7 +1668,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1692,7 +1679,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Transactions.dll",
@@ -1703,7 +1690,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Xml.Linq.dll",
@@ -1714,7 +1701,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Xml.dll",
@@ -1725,7 +1712,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.dll",
@@ -1736,7 +1723,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/mscorlib.dll",
@@ -1747,7 +1734,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Assembly-CSharp.pdb",
@@ -1758,7 +1745,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonChat.pdb",
@@ -1769,7 +1756,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonChat.pdb"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.pdb",
@@ -1780,7 +1767,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Telemetry.pdb"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Timeline.pdb",
@@ -1791,7 +1778,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.TextMeshPro.pdb",
@@ -1802,7 +1789,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/KinoBloom.Runtime.pdb",
@@ -1813,7 +1800,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/KinoBloom.Runtime.pdb"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Networking.pdb",
@@ -1824,7 +1811,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Networking.pdb"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/CFXRDemo.pdb",
@@ -1835,7 +1822,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/CFXRDemo.pdb"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonRealtime.pdb",
@@ -1846,7 +1833,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonRealtime.pdb"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Internal.pdb",
@@ -1857,7 +1844,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Internal.pdb"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/UnityEngine.UI.pdb",
@@ -1868,7 +1855,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.pdb",
@@ -1879,7 +1866,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -1890,7 +1877,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.pdb",
@@ -1901,7 +1888,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Configuration.pdb"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.pdb",
@@ -1912,7 +1899,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.pdb"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -1923,7 +1910,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.pdb",
@@ -1934,7 +1921,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.pdb"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Cinemachine.pdb",
@@ -1945,7 +1932,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Cinemachine.pdb"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.pdb",
@@ -1956,7 +1943,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Analytics.pdb"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Registration.pdb",
@@ -1967,7 +1954,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Registration.pdb"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Environments.pdb",
@@ -1978,7 +1965,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Environments.pdb"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.pdb",
@@ -1989,7 +1976,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Scheduler.pdb"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.pdb",
@@ -2000,7 +1987,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Environments.Internal.pdb"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.pdb",
@@ -2011,7 +1998,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/PhotonUnityNetworking.Demos.pdb"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Threading.pdb",
@@ -2022,7 +2009,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Threading.pdb"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/CFXRRuntime.pdb",
@@ -2033,7 +2020,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/CFXRRuntime.pdb"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -2044,7 +2031,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Device.pdb",
@@ -2055,18 +2042,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Services.Core.Device.pdb"
       ],
-      "DebugActionIndex": 168
-    },
-    {
-      "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Postprocessing.Runtime.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "D:/OneDrive/Masaüstü/gitfiles/Slaymaster/Slaymaster/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
-      ],
-      "Outputs": [
-        "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Unity.Postprocessing.Runtime.pdb"
-      ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Newtonsoft.Json.pdb",
@@ -2077,7 +2053,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Newtonsoft.Json.pdb"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Photon3Unity3D.pdb",
@@ -2088,7 +2064,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Managed/Photon3Unity3D.pdb"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -2099,7 +2075,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 172
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/app.info",
@@ -2111,9 +2087,9 @@
         "D:/OneDrive/Masaüstü/Slaymaster_Data/app.info"
       ],
       "ToBuildDependencies": [
-        172
+        170
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster_Data/Resources/unity default resources",
@@ -2124,7 +2100,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/Slaymaster.exe",
@@ -2135,7 +2111,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/Slaymaster.exe"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/UnityCrashHandler64.exe",
@@ -2146,7 +2122,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/UnityPlayer.dll",
@@ -2157,7 +2133,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/WinPixEventRuntime.dll",
@@ -2168,7 +2144,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -2179,7 +2155,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -2190,7 +2166,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -2201,7 +2177,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/config",
@@ -2212,7 +2188,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -2223,7 +2199,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -2234,7 +2210,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -2245,7 +2221,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -2256,7 +2232,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -2267,7 +2243,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -2278,7 +2254,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -2289,7 +2265,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -2300,7 +2276,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -2311,7 +2287,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -2322,7 +2298,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -2333,7 +2309,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -2344,7 +2320,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -2355,7 +2331,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -2366,7 +2342,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -2377,7 +2353,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -2388,7 +2364,7 @@
       "Outputs": [
         "D:/OneDrive/Masaüstü/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "Player",
@@ -2565,8 +2541,8 @@
         167,
         168,
         169,
-        170,
         171,
+        172,
         173,
         174,
         175,
@@ -2590,12 +2566,10 @@
         193,
         194,
         195,
-        196,
-        197,
-        198
+        196
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 199
+      "DebugActionIndex": 197
     }
   ],
   "FileSignatures": [
@@ -2750,9 +2724,6 @@
     },
     {
       "File": "D:/OneDrive/Masaüstü/gitfiles/Slaymaster/Slaymaster/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
-    },
-    {
-      "File": "D:/OneDrive/Masaüstü/gitfiles/Slaymaster/Slaymaster/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.pdb"
     },
     {
       "File": "D:/OneDrive/Masaüstü/gitfiles/Slaymaster/Slaymaster/Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.pdb"
@@ -3155,7 +3126,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 199
+          "Player": 197
         }
 ,  "DefaultNodes": [
     0

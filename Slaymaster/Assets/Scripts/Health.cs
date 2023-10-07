@@ -39,9 +39,14 @@ public class Health : MonoBehaviour
         {
             died.Play();
             pv.RPC("PlayDieForAll", RpcTarget.All);
-            PhotonNetwork.Destroy(gameObject);
+            
             if (isLocalPlayer)
-                 GameManager.instance.SpawnPlayer();
+            {
+                PhotonNetwork.Destroy(gameObject);
+                GameManager.instance.SpawnPlayer();
+
+            }
+                 
 
         }
         pv.RPC("UpdateHealth", RpcTarget.AllBuffered, health);

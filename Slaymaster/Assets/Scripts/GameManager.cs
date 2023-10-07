@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Transform[] spawnPoints;
     public Movement[] players;
     private int playersInGame;
-
+    private Timer timer;
     public GameObject roomCam;
 
 
@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     private void Awake()
     {
         instance = this;
+        timer = GetComponent<Timer>();
     }
     void Start()
     {
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (playersInGame == PhotonNetwork.PlayerList.Length)
         {
             SpawnPlayer();
+            timer.enabled(true);
         }
     }
     public void SpawnPlayer()
@@ -44,11 +46,17 @@ public class GameManager : MonoBehaviourPunCallbacks
         roomCam.SetActive(false);
         GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
         PlayerSetup.instance.IsLocalPlayer();
-        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
+        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.LocalPlayer.NickName);
         playerObj.GetComponent<Health>().isLocalPlayer = true;
+        PhotonNetwork.LocalPlayer.NickName = PlayerSetup.instance.nickname;
 
     }
-
+    [PunRPC]
+    public void GameOver()
+    {
+        NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Menu");
+        Destroy(NetworkManager.instance.gameObject);
+    }
 
     public Movement GetPlayer(int playerId)
     {

@@ -1,5 +1,6 @@
 using Photon.Pun;
 using Photon.Pun.Demo.Cockpit;
+using Photon.Pun.UtilityScripts;
 using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using UnityEngine;
 
 public class ScoreBoard : MonoBehaviour
 {
+    public GameObject playersHolder;
     public float refreshRate = 1f;
     public GameObject[] slots;
     [Space]
@@ -19,15 +21,6 @@ public class ScoreBoard : MonoBehaviour
     {
         InvokeRepeating(nameof(Refresh),1f,refreshRate);
     }
-    public static int GetScore(this Player player)
-    {
-        object score;
-        if (player.CustomProperties.TryGetValue("score", out score))
-        {
-            return (int)score;
-        }
-        return 0; // Varsayýlan deðer
-    }
     public void Refresh()
     {
         foreach (var slot in slots)
@@ -35,7 +28,7 @@ public class ScoreBoard : MonoBehaviour
             slot.SetActive(false);
         }
 
-        List<Player> sortedPlayers = PhotonNetwork.PlayerList.OrderByDescending(player => player.GetScore()).ToList();
+        var sortedPlayers = (from player in PhotonNetwork.PlayerList orderby player.GetScore() descending select player);
 
         int i = 0;
         foreach (var player in sortedPlayers)
@@ -50,5 +43,10 @@ public class ScoreBoard : MonoBehaviour
 
             i++;
         }
+    }
+
+    private void Update()
+    {
+        playersHolder.SetActive(Input.GetKey(KeyCode.Tab));
     }
 }

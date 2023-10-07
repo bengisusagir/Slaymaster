@@ -1853,6 +1853,7 @@ MonoBehaviour:
   camera: {fileID: 6530427164179686456}
   nickname: 
   can: 100
+  kill: 0
   nameUI: {fileID: 2758096469269715679}
   slid: {fileID: 1620693394777271594}
   TPHolder: {fileID: 8751264542154726757}
