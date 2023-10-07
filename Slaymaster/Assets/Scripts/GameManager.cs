@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Movement[] players;
     private int playersInGame;
 
-
+    public GameObject roomCam;
 
 
 
@@ -39,22 +39,16 @@ public class GameManager : MonoBehaviourPunCallbacks
             SpawnPlayer();
         }
     }
-    void SpawnPlayer()
+    public void SpawnPlayer()
     {
+        roomCam.SetActive(false);
         GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
         PlayerSetup.instance.IsLocalPlayer();
         playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
         playerObj.GetComponent<Health>().isLocalPlayer = true;
 
     }
-    public void RespawnPlayer()
-    {
-        GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
-        PlayerSetup.instance.IsLocalPlayer();
-        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.NickName);
-        playerObj.GetComponent<Health>().isLocalPlayer = true;
 
-    }
 
     public Movement GetPlayer(int playerId)
     {

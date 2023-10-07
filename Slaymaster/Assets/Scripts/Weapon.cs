@@ -140,6 +140,7 @@ public class Weapon : MonoBehaviourPun
                 Reload();
             }
     }
+
     void PlayEmptyGunSound()
     {
         reloads.PlayOneShot(reloads.clip);
@@ -162,6 +163,10 @@ public class Weapon : MonoBehaviourPun
 
             if (hit.transform.gameObject.GetComponent<Health>())
             {
+                if(damage >= hit.transform.gameObject.GetComponent<Health>().health)
+                {
+                    PhotonNetwork.LocalPlayer.AddScore(1);
+                }
 
                 hit.transform.gameObject.GetComponent<PhotonView>().RPC("TakeDamage", RpcTarget.All,damage);
             }

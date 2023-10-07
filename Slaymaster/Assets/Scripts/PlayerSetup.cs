@@ -13,6 +13,7 @@ public class PlayerSetup : MonoBehaviour
 
     public string nickname;
     public int can=100;
+    public int kill=0;
     public TextMeshPro nameUI;
     public Slider slid;
     public Transform TPHolder;
@@ -67,7 +68,14 @@ public class PlayerSetup : MonoBehaviour
         slid.value = health;
     }
 
-   
+/*    [PunRPC]
+    public void SetKill(int health)
+    {
+        can = health;
+        slid.value = health;
+    }*/
+
+
     private void Update()
     {
         childTransform.parent = parentTransform;

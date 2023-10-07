@@ -39,18 +39,16 @@ public class Health : MonoBehaviour
         {
             died.Play();
             pv.RPC("PlayDieForAll", RpcTarget.All);
-            //if (isLocalPlayer)
-            //{
-               // GameManager.instance.RespawnPlayer();
-
-            //}
-            Destroy(gameObject);
-
+            PhotonNetwork.Destroy(gameObject);
+            if (isLocalPlayer)
+                 GameManager.instance.SpawnPlayer();
 
         }
         pv.RPC("UpdateHealth", RpcTarget.AllBuffered, health);
     }
-    private void Start()     
+
+
+        private void Start()     
     {
         health = maxHealth;
 
@@ -72,7 +70,7 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-        //healthBar.sizeDelta = new Vector2(originalHealthBarSize * health / 100f, healthBar.sizeDelta.y);
+       
     }
 
 }
