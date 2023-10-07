@@ -4748,7 +4748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 378241290}
-  limitedTime: 10
+  limitedTime: 100
   pv: {fileID: 1936965283}
 --- !u!114 &1936965287
 MonoBehaviour:

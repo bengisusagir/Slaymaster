@@ -31,6 +31,14 @@ public class GameManager : MonoBehaviourPunCallbacks
         players = new Movement[PhotonNetwork.PlayerList.Length];
         photonView.RPC("ImInGame", RpcTarget.All);
     }
+
+
+    public void UpdateName(GameObject player)
+    {
+        player.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.LocalPlayer.NickName);
+
+    }
+
     [PunRPC]
     public void ImInGame()
     {
@@ -47,9 +55,10 @@ public class GameManager : MonoBehaviourPunCallbacks
         roomCam.SetActive(false);
         GameObject playerObj = (GameObject)PhotonNetwork.Instantiate(playerPrefabLocation[Random.Range(0, playerPrefabLocation.Length)], spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
         PlayerSetup.instance.IsLocalPlayer();
-        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.AllBuffered, PhotonNetwork.LocalPlayer.NickName);
+        playerObj.GetComponent<PhotonView>().RPC("SetNickname", RpcTarget.All, PhotonNetwork.LocalPlayer.NickName);
         playerObj.GetComponent<Health>().isLocalPlayer = true;
         PhotonNetwork.LocalPlayer.NickName = PlayerSetup.instance.nickname;
+        
 
     }
     [PunRPC]

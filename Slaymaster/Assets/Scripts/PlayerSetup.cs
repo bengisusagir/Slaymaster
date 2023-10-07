@@ -73,6 +73,6 @@ public class PlayerSetup : MonoBehaviour
     private void Update()
     {
         childTransform.parent = parentTransform;
-
+        nameUI.text = nickname;
     }
 }

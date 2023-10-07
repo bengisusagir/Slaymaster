@@ -99,8 +99,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.2, y: 0}
-  m_SizeDelta: {x: 33.3, y: 9.8}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 51.927, y: 9.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1557727618621209868
 MeshRenderer:
@@ -192,8 +192,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -2.4431763, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.013565058, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -342,8 +342,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.14, y: 2.93}
-  m_SizeDelta: {x: 33.3, y: 9.8}
+  m_AnchoredPosition: {x: 0.19, y: 3.08}
+  m_SizeDelta: {x: 35.1073, y: 9.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1469489789577370508
 MonoBehaviour:
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   nickname: 
   can: 100
   kill: 0
-  nameUI: {fileID: 1257202480326489741, guid: 015286ad22eb6c84fbcd535e5d32ca23, type: 3}
+  nameUI: {fileID: 2758096469269715679}
   slid: {fileID: 1620693394777271594}
   TPHolder: {fileID: 8751264542154726757}
   parentTransform: {fileID: 2853131709212624732}

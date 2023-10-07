@@ -40,6 +40,11 @@ public class RoomManager : MonoBehaviourPunCallbacks
         Debug.Log("Connecting");
     }
 
+    public void ChangeNickname(string _name)
+    {
+        nickname = _name;
+    }
+
     public override void OnConnectedToMaster()
     {
         createRoomButton.interactable = true;
