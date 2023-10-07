@@ -12,6 +12,7 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public GameObject firstSc;
     public GameObject secSc;
     public GameObject thirdSc;
+    public GameObject options;
 
     [Header("First Screen")]
     public Button startButton;
@@ -24,28 +25,33 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public TextMeshProUGUI playerListText;
     public Button startGameButton;
 
+    public static RoomManager instance;
 
+    [Header("Options")]
+    public TextMeshProUGUI volumeAmount; 
 
     public string nickname = "unnamed";
 
     void Start()
     {
+        instance = this;
         createRoomButton.interactable = false;
         joinRoomButton.interactable = false;
-        Debug.Log("Baglaniyo");
+        Debug.Log("Connecting");
     }
 
     public override void OnConnectedToMaster()
     {
         createRoomButton.interactable = true;
         joinRoomButton.interactable = true;
-        Debug.Log("yess");
+        Debug.Log("Connected");
     }
     void SetScreen(GameObject screen)
     {
         firstSc.SetActive(false);
         secSc.SetActive(false);
         thirdSc.SetActive(false);
+        options.SetActive(false);
         screen.SetActive(true);
     }
     public void OnCreateRoomButton(TMP_InputField roomNameInput)
@@ -60,6 +66,26 @@ public class RoomManager : MonoBehaviourPunCallbacks
     public void OnPlayerNameUpdate(TMP_InputField playerNameInput)
     {
         PhotonNetwork.NickName = playerNameInput.text;
+    }
+
+    public void SetAudio(float value)
+    {
+        AudioListener.volume = value;
+        volumeAmount.text = ((int)(value*100)).ToString();
+    }
+    public void OptionsButton()
+    {
+        SetScreen(options);
+    }
+
+    public void GoBackMn()
+    {
+        SetScreen(firstSc);
+    }
+
+    public void OnQuit()
+    {
+        Application.Quit();
     }
     public override void OnJoinedRoom()
     {

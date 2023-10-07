@@ -419,6 +419,7 @@
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/NetworkManager.cs"
 "Assets/Scripts/newMouse.cs"
+"Assets/Scripts/options.cs"
 "Assets/Scripts/PlayerSetup.cs"
 "Assets/Scripts/RoomManager.cs"
 "Assets/Scripts/ScoreBoard.cs"

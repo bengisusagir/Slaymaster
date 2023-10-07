@@ -6,6 +6,8 @@ using Photon.Pun;
 using System.Globalization;
 using System.Security.Cryptography;
 using System.Linq;
+using Photon.Pun.Demo.Cockpit;
+using TMPro;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
@@ -14,7 +16,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     public Transform[] spawnPoints;
     public Movement[] players;
     private int playersInGame;
-    private Timer timer;
+    public Timer timer;
     public GameObject roomCam;
 
 
@@ -23,7 +25,6 @@ public class GameManager : MonoBehaviourPunCallbacks
     private void Awake()
     {
         instance = this;
-        timer = GetComponent<Timer>();
     }
     void Start()
     {
@@ -38,7 +39,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         if (playersInGame == PhotonNetwork.PlayerList.Length)
         {
             SpawnPlayer();
-            timer.enabled(true);
+            timer.enabled = true;
         }
     }
     public void SpawnPlayer()
@@ -56,6 +57,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Menu");
         Destroy(NetworkManager.instance.gameObject);
+
+
     }
 
     public Movement GetPlayer(int playerId)

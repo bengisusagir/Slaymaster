@@ -8,17 +8,35 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 
-public class ScoreBoard : MonoBehaviour
+public class ScoreBoard : MonoBehaviourPunCallbacks
 {
     public GameObject playersHolder;
+    public GameObject winnerpanel;
+
     public float refreshRate = 1f;
     public GameObject[] slots;
     [Space]
     public TextMeshProUGUI[] scoreTexts; 
     public TextMeshProUGUI[] nameTexts;
+    public TextMeshProUGUI winnername;
+    public TextMeshProUGUI winnerscore;
+    public static ScoreBoard instance;
+    private void Awake()
+    {
+        instance = this;
+    }
 
+    [PunRPC]
+    public void Winner()
+    {
+        winnerpanel.SetActive(true);
+        var winnerplayer = (from player in PhotonNetwork.PlayerList orderby player.GetScore() descending select player).FirstOrDefault();
+        winnername.text = winnerplayer.NickName;
+        winnerscore.text = winnerplayer.GetScore().ToString();
+    }
     private void Start()
     {
+
         InvokeRepeating(nameof(Refresh),1f,refreshRate);
     }
     public void Refresh()
@@ -43,7 +61,11 @@ public class ScoreBoard : MonoBehaviour
 
             i++;
         }
+
+        
     }
+
+ 
 
     private void Update()
     {
