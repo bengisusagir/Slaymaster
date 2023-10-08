@@ -18,6 +18,7 @@ public class Weapon : MonoBehaviourPun
     private float nextFire;
     public AudioSource au;
     public AudioSource reloads;
+    public AudioSource taken;
 
     public PhotonView pv;
 
@@ -76,6 +77,7 @@ public class Weapon : MonoBehaviourPun
         GameObject gobje = GameObject.Find(ammos);
         if (gobje != null)
         {
+            taken.Play();
         gobje.SetActive(false);
             mag++;
             SetAmmo();

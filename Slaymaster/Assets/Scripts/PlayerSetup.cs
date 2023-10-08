@@ -45,15 +45,6 @@ public class PlayerSetup : MonoBehaviour
 
 
 
-/*    [PunRPC]
-    public void SetWeapon(string weaponN)
-    {
-        GameObject weap = GameObject.Find("weaponN");
-
-            weap.SetActive(true);
-
-        
-    }*/
 
     [PunRPC]
     public void SetHealthBar(int health)

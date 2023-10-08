@@ -35,8 +35,7 @@ public class Movement : MonoBehaviourPunCallbacks
 
     public Animator animator;
     public AudioSource walk;
-    public AudioSource jump;
-    public AudioClip jumpclip;
+
 
 
     private bool grounded=false;
@@ -91,13 +90,7 @@ public class Movement : MonoBehaviourPunCallbacks
             walk.Play();
 
         }
-    [PunRPC]
-    public void PlayJumpForAll()
-    {
-       jump.PlayOneShot(jumpclip);
 
-
-    }
     private void OnTriggerStay(Collider other)
     {
         grounded = true;
@@ -122,8 +115,7 @@ public class Movement : MonoBehaviourPunCallbacks
             }
                else if(jumped)
                 {
-                    jump.PlayOneShot(jumpclip);
-                    PV.RPC("PlayJumpForAll", RpcTarget.All);
+                    
                 jumped = false;
 
             }

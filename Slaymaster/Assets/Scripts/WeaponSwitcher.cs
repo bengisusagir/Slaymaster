@@ -1,3 +1,4 @@
+using Nokobot.Assets.Crossbow;
 using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,6 +11,9 @@ public class WeaponSwitcher : MonoBehaviourPunCallbacks
     private int selectedWeapon = 0;
     public GameObject spidergun;
     public GameObject bluegun;
+    public GameObject crossbow;
+    public GameObject electricgun;
+    public AudioSource taken;
     void Start()
     {
         PV = player.GetComponent<PhotonView>();
@@ -20,11 +24,17 @@ public class WeaponSwitcher : MonoBehaviourPunCallbacks
     {
         spidergun.SetActive(false);
         bluegun.SetActive(false);
+        crossbow.SetActive(false);
+        electricgun.SetActive(false);
 
         if(gun=="spidergun")
             spidergun.SetActive(true);
         if (gun == "bluegun")
             bluegun.SetActive(true);
+        if (gun == "crossbow")
+            crossbow.SetActive(true);
+        if (gun == "electricgun")
+            electricgun.SetActive(true);
 
     }
     [PunRPC]
@@ -34,16 +44,27 @@ public class WeaponSwitcher : MonoBehaviourPunCallbacks
         GameObject gobje = GameObject.Find(gun);
         if (gobje != null)
         {
+            taken.Play();
             gobje.SetActive(false);
-            if(gobje.name=="spiderg")
+            if(gobje.name=="spiderg(Clone)")
             {
             spidergun.SetActive(true);
             PV.RPC("SetGun", RpcTarget.All, "spidergun"); 
             }
-            else if (gobje.name == "blueg")
+            else if (gobje.name == "blueg(Clone)")
             {
                 bluegun.SetActive(true);
                 PV.RPC("SetGun", RpcTarget.All, "bluegun");
+            }
+            else if (gobje.name == "electricg(Clone)")
+            {
+                electricgun.SetActive(true);
+                PV.RPC("SetGun", RpcTarget.All, "electricgun");
+            }
+            else if (gobje.name == "crossbow(Clone)")
+            {
+                crossbow.SetActive(true);
+                PV.RPC("SetGun", RpcTarget.All, "crossbow");
             }
 
         }

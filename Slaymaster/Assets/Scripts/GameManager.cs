@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviourPunCallbacks
     [Header("Player")]
     public string[] playerPrefabLocation;
     public Transform[] spawnPoints;
+    public string[] gunsLoc;
+    public string[] ammo;
+
     public Movement[] players;
     private int playersInGame;
     public Timer timer;
@@ -28,6 +31,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     void Start()
     {
+        InvokeRepeating("spGuns", 2f, 5f);
         players = new Movement[PhotonNetwork.PlayerList.Length];
         photonView.RPC("ImInGame", RpcTarget.All);
     }
@@ -83,4 +87,12 @@ public class GameManager : MonoBehaviourPunCallbacks
         NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Menu");
         Destroy(NetworkManager.instance.gameObject);
     }
+    public void spGuns()
+    { 
+            
+           GameObject guns = (GameObject)PhotonNetwork.Instantiate(gunsLoc[Random.Range(0, gunsLoc.Length)],new Vector3(Random.Range(-35,35), 6, Random.Range(-25, 25)), Quaternion.identity);
+           GameObject ammo = (GameObject)PhotonNetwork.Instantiate("ammo1",new Vector3(Random.Range(-35,35), 1, Random.Range(-25, 25)), Quaternion.identity);
+
+    }
+ 
 }
