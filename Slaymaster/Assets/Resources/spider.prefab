@@ -2632,7 +2632,7 @@ PrefabInstance:
     - target: {fileID: 3569478064395069425, guid: 9832cd8baacbf0545a7880ecc12e1b19,
         type: 3}
       propertyPath: fireRate
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3569478064395069425, guid: 9832cd8baacbf0545a7880ecc12e1b19,
         type: 3}
@@ -3537,7 +3537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5591792e35897944b5876474ed27980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 10
   fireRate: 10
   camera: {fileID: 8191024134678341777}
   spi: {fileID: 8664042319736623097}

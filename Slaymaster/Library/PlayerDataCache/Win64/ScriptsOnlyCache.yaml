@@ -50,10 +50,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -251,9 +249,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -565,7 +571,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 39f4a1e8278739c353cbd7d0d9ed79ca
+      Hash: 801d2acc649a73c1968f29b0f33bc85c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Weapon
@@ -1375,7 +1381,7 @@ ScriptsOnlyBuild:
     className: DocLinkButton
   - hash:
       serializedVersion: 2
-      Hash: 85b77b35de900f1b62e78c21fe0ddd2d
+      Hash: b1f21cf8b593e66226e0a4f595f921f1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movement
@@ -2581,7 +2587,7 @@ ScriptsOnlyBuild:
     className: CameraWork
   - hash:
       serializedVersion: 2
-      Hash: a25cd2cbf001063a8309a881a8891e67
+      Hash: c66ef1d9e0c2a6ee31e8f3e94a0c04f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -2601,4 +2607,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: "D:/OneDrive/Masa\xFCst\xFC/Slaymaster.exe"
+  playerPath: "D:/OneDrive/Masa\xFCst\xFC/gitfiles/Slaymaster/Slaymaster/Build/Slaymaster.exe"

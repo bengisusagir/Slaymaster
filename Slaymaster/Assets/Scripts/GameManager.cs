@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     void Start()
     {
-        InvokeRepeating("spGuns", 2f, 5f);
+        InvokeRepeating("spGuns", 2f, 15f);
         players = new Movement[PhotonNetwork.PlayerList.Length];
         photonView.RPC("ImInGame", RpcTarget.All);
     }
@@ -90,8 +90,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void spGuns()
     { 
             
-           GameObject guns = (GameObject)PhotonNetwork.Instantiate(gunsLoc[Random.Range(0, gunsLoc.Length)],new Vector3(Random.Range(-35,35), 6, Random.Range(-25, 25)), Quaternion.identity);
-           GameObject ammo = (GameObject)PhotonNetwork.Instantiate("ammo1",new Vector3(Random.Range(-35,35), 1, Random.Range(-25, 25)), Quaternion.identity);
+           GameObject guns = (GameObject)PhotonNetwork.Instantiate(gunsLoc[Random.Range(0, gunsLoc.Length)],new Vector3(Random.Range(-35,35), 6, Random.Range(-35, 35)), Quaternion.identity);
+           GameObject ammo = (GameObject)PhotonNetwork.Instantiate("ammo1",new Vector3(Random.Range(-35,35), 1, Random.Range(-35, 35)), Quaternion.identity);
 
     }
  

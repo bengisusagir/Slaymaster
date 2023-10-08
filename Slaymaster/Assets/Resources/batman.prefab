@@ -3636,6 +3636,11 @@ PrefabInstance:
       objectReference: {fileID: 8958103842372360134}
     - target: {fileID: 3569478064395069425, guid: 9832cd8baacbf0545a7880ecc12e1b19,
         type: 3}
+      propertyPath: fireRate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569478064395069425, guid: 9832cd8baacbf0545a7880ecc12e1b19,
+        type: 3}
       propertyPath: ammoCircle
       value: 
       objectReference: {fileID: 7324326538973751761}
@@ -3955,6 +3960,11 @@ PrefabInstance:
       propertyPath: camera
       value: 
       objectReference: {fileID: 8191024134678341777}
+    - target: {fileID: 7826715719245531590, guid: 0ffdcd36d14d20f439b11833d9459ebe,
+        type: 3}
+      propertyPath: damage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7826715719245531590, guid: 0ffdcd36d14d20f439b11833d9459ebe,
         type: 3}
       propertyPath: magText
@@ -4378,7 +4388,7 @@ PrefabInstance:
     - target: {fileID: 3098161000261779643, guid: 3bf4f199034d6914093302535940599a,
         type: 3}
       propertyPath: fireRate
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3098161000261779643, guid: 3bf4f199034d6914093302535940599a,
         type: 3}
