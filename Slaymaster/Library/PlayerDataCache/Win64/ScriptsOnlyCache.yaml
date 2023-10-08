@@ -254,6 +254,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -1554,7 +1556,7 @@ ScriptsOnlyBuild:
     className: OnClickRpc
   - hash:
       serializedVersion: 2
-      Hash: a71d35e5005c8dbc226c54c533c6b8b5
+      Hash: aeac51b1592453f840f642eb7dfe9907
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WeaponSwitcher
@@ -2340,7 +2342,7 @@ ScriptsOnlyBuild:
     className: CFXR_ParticleTextFontAsset
   - hash:
       serializedVersion: 2
-      Hash: 34116d48dcefc0f291ffaf0d45d7e47b
+      Hash: 62c486917522c5138184caef0b3ed144
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerSetup

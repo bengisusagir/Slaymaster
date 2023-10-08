@@ -16,6 +16,9 @@ TagManager:
   - Wood (Static)
   - Dirt (Static)
   - Wood
+  - ammo
+  - ground
+  - gun
   layers:
   - Default
   - TransparentFX

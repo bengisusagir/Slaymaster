@@ -16,9 +16,8 @@ public class PlayerSetup : MonoBehaviour
     public int kill=0;
     public TextMeshPro nameUI;
     public Slider slid;
-    public Transform TPHolder;
+
     public Transform parentTransform;
-    public Transform childTransform;
     private PhotonView pv;
 
 
@@ -31,7 +30,6 @@ public class PlayerSetup : MonoBehaviour
     [PunRPC]
     public void IsLocalPlayer()
     {
-        TPHolder.gameObject.SetActive(false);
         movement.enabled = true;
         camera.SetActive(true);
 
@@ -47,19 +45,15 @@ public class PlayerSetup : MonoBehaviour
 
 
 
-    [PunRPC]
-    public void SetTPWeapon(int _weaponIndex)
+/*    [PunRPC]
+    public void SetWeapon(string weaponN)
     {
-        foreach (Transform _weapon in TPHolder)
-        {
-            _weapon.gameObject.SetActive(false);
+        GameObject weap = GameObject.Find("weaponN");
 
-        }
+            weap.SetActive(true);
 
-        TPHolder.GetChild(_weaponIndex).gameObject.SetActive(true);
-
-        //parentTransform.gameObject.SetActive(false);
-    }
+        
+    }*/
 
     [PunRPC]
     public void SetHealthBar(int health)
@@ -72,7 +66,6 @@ public class PlayerSetup : MonoBehaviour
 
     private void Update()
     {
-        childTransform.parent = parentTransform;
         nameUI.text = nickname;
     }
 }

@@ -8,55 +8,61 @@ public class WeaponSwitcher : MonoBehaviourPunCallbacks
     public PhotonView PV;
     public GameObject player;
     private int selectedWeapon = 0;
+    public GameObject spidergun;
+    public GameObject bluegun;
     void Start()
     {
         PV = player.GetComponent<PhotonView>();
-        SelectWeapon();
+        
     }
+    [PunRPC]
+    void SetGun(string gun)
+    {
+        spidergun.SetActive(false);
+        bluegun.SetActive(false);
 
-    // Update is called once per frame
+        if(gun=="spidergun")
+            spidergun.SetActive(true);
+        if (gun == "bluegun")
+            bluegun.SetActive(true);
+
+    }
+    [PunRPC]
+    void TakeGun(string gun)
+    {
+
+        GameObject gobje = GameObject.Find(gun);
+        if (gobje != null)
+        {
+            gobje.SetActive(false);
+            if(gobje.name=="spiderg")
+            {
+            spidergun.SetActive(true);
+            PV.RPC("SetGun", RpcTarget.All, "spidergun"); 
+            }
+            else if (gobje.name == "blueg")
+            {
+                bluegun.SetActive(true);
+                PV.RPC("SetGun", RpcTarget.All, "bluegun");
+            }
+
+        }
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "gun")
+        {
+            PV.RPC("TakeGun", RpcTarget.AllBuffered, other.gameObject.name);
+
+        }
+
+    }
     void Update()
     {
         if (!PV.IsMine)
             return;
 
-        int previousSelectedWeapon = selectedWeapon;
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            selectedWeapon = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            selectedWeapon = 1;
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            selectedWeapon = 2;
-        }
-
-        if(previousSelectedWeapon != selectedWeapon)
-        {
-            SelectWeapon();
-        }
-        
-    }
-
-     public void SelectWeapon()
-    {
-        PV.RPC("SetTPWeapon", RpcTarget.All, selectedWeapon);
-        int i = 0;
-        foreach (Transform _weapon in transform)
-        {
-            if( i == selectedWeapon)
-            {
-                _weapon.gameObject.SetActive(true);
-            }
-            else
-            {
-                _weapon.gameObject.SetActive(false);
-            }
-            i++;
-        }
     }
 }
